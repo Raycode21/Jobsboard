@@ -1,0 +1,7 @@
+<h1> New jobs </h1>
+<%= simple_form_for @job do |form| %>
+  <%= form.input :title, label:  "Job title: " %> </br>
+  <%= form.input :company, label:  "Your company: " %> </br>
+  <%= form.input :url, label:"Link to job:  " %> </br>
+  <%= form.button :submit %>
+<% end %>
